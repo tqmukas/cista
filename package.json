@@ -1,0 +1,37 @@
+{
+  "name": "tempura",
+  "version": "0.0.1",
+  "description": "Create and manipulate a temporary project",
+  "author": {
+		"name": "Tomas Miliauskas",
+    "email": "tqmukas@yahoo.com"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "release": ":"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tqmukas/tempura"
+  },
+  "bugs": {
+    "url": "https://github.com/tqmukas/tempura/issues"
+  },
+  "homepage": "https://github.com/tqmukas/tempura#readme",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "glob": "~7.1.0",
+    "mkdirp": "~0.5.0",
+    "rimraf": "~2.6.0"
+  },
+  "devDependencies": {
+    "jest": "~22.4.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT"
+}
