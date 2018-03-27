@@ -40,17 +40,17 @@
     "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
-		"temp",
-		"tmp",
-		"temporary",
-		"path",
-		"file",
-		"directory",
-		"dir",
-		"folder",
-		"project",
+    "temp",
+    "tmp",
+    "temporary",
+    "path",
+    "file",
+    "directory",
+    "dir",
+    "folder",
+    "project",
     "test",
     "testing"
-	],
+  ],
   "license": "MIT"
 }

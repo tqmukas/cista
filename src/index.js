@@ -18,8 +18,14 @@ module.exports = (tree = {}) => {
         return readFile(prop);
       }
     },
-    set: (obj, prop, value) =>
-      prop in obj ? obj[prop] = value : writeFile(prop, value)
+    set: (obj, prop, value) => {
+      if (prop in obj) {
+        obj[prop] = value;
+      } else {
+        writeFile(prop, value);
+      }
+      return true;
+    }
   });
   const cista = {dir, cleanup, files};
 
