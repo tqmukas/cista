@@ -43,7 +43,7 @@ project.files['src/app.js'] = 'break;';
 console.log(files['src/app.js']); // Outputs `break;`
 ```
 
-### cleanup()
+### .cleanup()
 Delete the temporary project from file system.
 
 ## License
