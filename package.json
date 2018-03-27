@@ -48,7 +48,9 @@
 		"directory",
 		"dir",
 		"folder",
-		"project"
+		"project",
+    "test",
+    "testing"
 	],
   "license": "MIT"
 }

@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/tqmukas/cista.svg?branch=master)](https://travis-ci.org/tqmukas/cista)
-
-# Cista
+# Cista [![Build Status](https://travis-ci.org/tqmukas/cista.svg?branch=master)](https://travis-ci.org/tqmukas/cista)
 Create and manipulate a temporary project.
 
 Might be useful to test node tools that interact with the file system.
+
+[![NPM](https://nodei.co/npm/cista.png)](https://nodei.co/npm/cista/)
 
 ## Install
 `npm install cista`
