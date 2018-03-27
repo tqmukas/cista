@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tqmukas/cista.svg?branch=master)](https://travis-ci.org/tqmukas/cista)
+
 # Cista
 Create and manipulate a temporary project.
 
