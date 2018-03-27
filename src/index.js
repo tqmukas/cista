@@ -21,11 +21,11 @@ module.exports = (tree = {}) => {
     set: (obj, prop, value) =>
       prop in obj ? obj[prop] = value : writeFile(prop, value)
   });
-  const tempura = {dir, cleanup, files};
+  const cista = {dir, cleanup, files};
 
   mkdirp.sync(dir);
   Object.keys(flatten).forEach(file =>
-    tempura.files[file] = flatten[file]);
+    cista.files[file] = flatten[file]);
 
   function readFile(file) {
     try {
@@ -44,7 +44,7 @@ module.exports = (tree = {}) => {
     return rimraf.sync(dir, {rmdir: true});
   }
 
-  return tempura;
+  return cista;
 }
 
 function uniqueDir() {

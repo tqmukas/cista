@@ -1,24 +1,23 @@
 {
-  "name": "tempura",
+  "name": "cista",
   "version": "0.0.1",
   "description": "Create and manipulate a temporary project",
   "author": {
-		"name": "Tomas Miliauskas",
+    "name": "Tomas Miliauskas",
     "email": "tqmukas@yahoo.com"
   },
   "main": "src/index.js",
   "scripts": {
-    "test": "jest",
-    "release": ":"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tqmukas/tempura"
+    "url": "https://github.com/tqmukas/cista"
   },
   "bugs": {
-    "url": "https://github.com/tqmukas/tempura/issues"
+    "url": "https://github.com/tqmukas/cista/issues"
   },
-  "homepage": "https://github.com/tqmukas/tempura#readme",
+  "homepage": "https://github.com/tqmukas/cista#readme",
   "engines": {
     "node": ">=8"
   },

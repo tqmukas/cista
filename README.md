@@ -1,21 +1,21 @@
-# Tempura
+# Cista
 Create and manipulate a temporary project.
 
 Might be useful to test node tools that interact with the file system.
 
 ## Install
-`npm install tempura`
+`npm install cista`
 
 ## Usage
 ```js
-const tempura = require('tempura');
+const cista = require('cista');
 
 const fileTree = {
   'src/app.js': ';',
   'package.json': '{}'
 };
 
-const project = tempura(fileTree);
+const project = cista(fileTree);
 ```
 
 ## API
@@ -32,7 +32,7 @@ The list of files in the temporary project.
 Read, change or write the content of a single file.
 
 ```js
-const {files} = tempura(fileTree);
+const {files} = cista(fileTree);
 
 console.log(files['src/app.js']); // Outputs `;`
 
