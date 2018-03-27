@@ -7,12 +7,19 @@
     "email": "tqmukas@yahoo.com"
   },
   "main": "src/index.js",
+  "files": [
+    "src/",
+    "LICENSE",
+    "CHANGELOG.md",
+    ".nvmrc",
+    "README.md"
+  ],
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tqmukas/cista"
+    "url": "https://github.com/tqmukas/cista.git"
   },
   "bugs": {
     "url": "https://github.com/tqmukas/cista/issues"
@@ -32,5 +39,16 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "keywords": [
+		"temp",
+		"tmp",
+		"temporary",
+		"path",
+		"file",
+		"directory",
+		"dir",
+		"folder",
+		"project"
+	],
   "license": "MIT"
 }
